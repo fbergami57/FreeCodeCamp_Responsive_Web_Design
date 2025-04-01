@@ -1,0 +1,64 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<boady>
+<h1 id="title">Description</h1>
+<p id="description">Description</p>
+<form id="survey-form">
+  <div>
+  <label id="name-label" for="name">Name</label>
+  <input name="name" id="name" type="text" placeholder="Name" required></input>
+  </div>
+  <div>
+  <label id="email-label" for="email">Email</label>
+  <input name="email" id="email" type="email" placeholder="Email" required></input>
+  </div>
+  <div>
+  <label id="number-label" for="number">Idade</label>
+    <input id="number" type="number" name="number" min="18" max="120" placeholder="Age" required ></input>
+  </div>
+  <div>
+  <select id="dropdown" name="optionSelect" required>
+    <option value="" disabled selected>Select</option>
+    <option value="1">Option 1</options>
+    <option value="2">Option 2</option>
+  </select>
+  </div>
+  <div>
+    <p>Choose an option:</p>
+    <label>
+      <input type="radio" name="radioOptions" value="option1" required >
+      Option 1
+    </label>
+    <label>
+      <input type="radio" name="radioOptions" value="option2">
+      Option 2
+    </label>
+  </div>
+  <div>
+    <label>
+      <input type="checkbox" name="checkboxOptions" value="option1"> Option check 1
+    </label>
+    <label>
+      <input type="checkbox" name="checkboxOptions" value="option2"> Option check 2
+    </label>
+  </div>
+  <div>
+    <textarea type="textarea" name="textAreaField" name="textAreaField" rows="5" cols="30"></textarea>
+  </div>
+  <button type="submit" id="submit" name="submit">Send</button>
+</form>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
